@@ -1,0 +1,28 @@
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top:0px;
+}
+.footer > .footer-item {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #2f323a;
+    width: 25%;
+    height: 60px;
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer > .footer-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer > .footer-item > .stronger-letter {
+    font-size: 1.5em;
+    font-weight: 1000;
+}

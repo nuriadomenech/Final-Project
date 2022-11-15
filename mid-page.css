@@ -1,0 +1,97 @@
+/*Common Styles */
+.mid-page {
+    background-color: #2f323a;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mid-page > .text-part {
+    width: 100%;
+
+}
+.mid-page > .text-part > .first-text {
+    font-family: "Lato", sans-serif;
+    color:white;
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height : 1.3em;
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-top: 30px;
+    
+}
+
+.mid-page > .text-part > .second-text {
+    font-family: "Lato", sans-serif;
+    color:rgb(184, 184, 184);
+    font-size: 2.1em;
+    font-weight: 400;
+    line-height : 1.5em;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.mid-page > .text-part > .final-items {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.mid-page > .text-part > .final-items a {
+    text-decoration: none;
+  
+}
+
+.mid-page > .text-part > .final-items > .final-item1 a {
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+font-size: 2em;
+color: black;
+background-color:  #4fc883;
+border: none;
+padding: 15px 10px;
+border-radius: 4px;
+}
+
+.mid-page > .text-part > .final-items > .final-item2 a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+    background-color: #111111;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 4px;
+}
+
+
+.mid-page > .image-text > .text-small {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+    text-indent: 6em; 
+    margin-top: 20px;
+    margin-bottom: -25px;
+
+}
+.mid-page > .image-text > .image img {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    float: right;
+	box-shadow: -48px -27px 40px rgba(0, 0, 0, 0.6)  ; 
+	-webkit-box-shadow: -48px -27px 40px rgba(0, 0, 0, 0.6)  ; 
+	-moz-box-shadow: -48px -27px 40px rgba(0, 0, 0, 0.6)  ; 
+
+}
+
+
